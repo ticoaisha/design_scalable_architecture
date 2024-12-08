@@ -1,6 +1,6 @@
 # Design Scalable Architecture
 
-This project is about designing an architecture for a scalable web application. For the purposes of this task we will use an e-commerce platform. Before diving in technical details of each of the architectural models, let's understand why it is important for the cloud engineers to make a comparison between traditional and serverless acrhitecture.
+This project is about designing an architecture for a scalable web application. For the purposes of this task we will use an e-commerce platform. Before diving in technical details of each of the architectural models, let's understand why it is important for the cloud engineers to make a comparison between traditional and serverless architecture.
 
 1. Traditional and serverless architectures offer different benefits and challenges, and understanding these differences helps cloud engineers make informed decisions based on the application’s requirements. For example, a traditional architecture might offer more control and consistent performance for long-running processes, while a serverless architecture simplifies infrastructure management and scales automatically.
 
@@ -47,6 +47,8 @@ Let's identify the core functionalities of the e-commerce platform:
 **Limitations:** more complex to manage and requires state management (e.g., user sessions) using external stores, like Redis.
 
 ## Serverless architecture design
+
+Now let's explore serverless architecture design in more details.
 
 ![Serverless architecture](images/2_serverless_architecture.png)
 
