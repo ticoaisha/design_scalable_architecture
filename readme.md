@@ -23,7 +23,7 @@ Let's identify the core functionalities of the e-commerce platform:
 * Order management will handle place orders, track order status, and view past orders.
 * Payment processing will take care of the secure payment integration.
 
-![Traditional scalable architecture](/design_scalable_architecture/images/1_traditional_server_scaling.png)
+![Traditional scalable architecture](images/1_traditional_server_scaling.png)
 
 **Traditional server scaling on a high-level will include the following components:**
 * **Client (web / mobile app)** represents the front-end interface, through which users interact with the application. Client sends requests and receives responses from the server. The client handles user input, display of data, and navigation.
@@ -48,9 +48,7 @@ Let's identify the core functionalities of the e-commerce platform:
 
 ## Serverless architecture design
 
-
-
-![Serverless architecture](/design_scalable_architecture/images/2_serverless_architecture.png)
+![Serverless architecture](images/2_serverless_architecture.png)
 
 **Serverless architecture on a high-level will include the following key components:**
 
